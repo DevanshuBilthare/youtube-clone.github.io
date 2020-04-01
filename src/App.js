@@ -4,6 +4,7 @@ import { Grid } from '@material-ui/core'
 
 import { SearchBar, VideoDetail, VideoList } from './Components'
 
+
 import youtube from './Api/youtube'
 
 class App extends React.Component {
@@ -16,7 +17,8 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        this.handleSubmit('javascript')
+        this.handleSubmit('Devopod')
+
     }
 
 
